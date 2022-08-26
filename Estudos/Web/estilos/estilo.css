@@ -1,0 +1,48 @@
+html {
+    font-size: 10px;
+    /* px significa "pixels": o tamanho da fonte base é agora de 10 pixels */
+    font-family: "Open Sans", sans-serif;
+    /* este deve ser o nome da fonte que você obteve no Google Fonts */
+    background-color: lightblue;
+    /* Muda a cor atrás do conteúdo e do padding (define uma a distância entre o conteúdo de um elemento e suas bordas)*/
+}
+
+h1 {
+    font-size: 60px;
+    /* tamanho da fonte do texto */
+    text-align: center;
+    /* alinhamento */
+    margin: 0;
+    /* tirando o espaço do topo do corpo que vem devido a estilização padrão dos browsers */
+    padding: 20px 0;
+    /* definimos o padding das partes superior e inferior do cabeçalho para 20 */
+    color: #00539F;
+    /* cor do h1 */
+    text-shadow: 3px 3px 1px black;
+    /* acrescenta sombras ao texto */
+}
+
+p,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+body {
+    width: 600px;
+    /* Isso força o corpo a ter 600 pixels de largura. */
+    margin: 0 auto;
+    /* Quando dois valores, indica, respectivamente, a margem superior e as margens esquerda e direita */
+    background-color: lightgray;
+    /* Muda a cor do elemento */
+    padding: 0 20px 20px 20px;
+    /* Define, respectivamente, o padding da margem superior, direita, inferior, esquerda */
+    border: 5px solid black;
+    /*  isso simplesmente define uma borda preta sólida de 5 pixels de largura em todos os lados do corpo. */
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
